@@ -1,8 +1,27 @@
-# React + Vite
+# Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Brief description of your project.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Project Features](#project-features)
+
+## Project Features
+
+### 1. Dynamic Card Display
+
+- Display a dynamic list of cards representing various categories such as Health, Education, Clothing, and Food.
+- Each card includes a cover image, title, category, price, and description.
+- Cards are loaded from a JSON data source, allowing for easy updates and additions.
+
+### 2. Donation Page
+
+- Users can donate to selected cards by clicking on the "Donate" button.
+- Donated cards are stored locally and can be viewed in the donation history.
+- A "See All" button allows users to view all donated cards when there are more than four.
+
+### 3. Statistics Visualization
+
+- Visualize statistics related to donations with an interactive pie chart.
+- The chart displays the percentage of applied donations compared to total donations.
+- It updates dynamically as users make donations, providing insights into the impact of contributions.
