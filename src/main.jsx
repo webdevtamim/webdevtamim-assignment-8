@@ -16,6 +16,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <Error></Error>,
     children: [
       {
         path: '/',
@@ -35,10 +36,6 @@ const router = createBrowserRouter([
         path: '/:id',
         element: <Details></Details>,
         loader: () => fetch('../blogs.json')
-      },
-      {
-        path: '*',
-        element: <Error></Error>,
       },
     ]
   },
