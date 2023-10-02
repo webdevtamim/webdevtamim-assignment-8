@@ -28,3 +28,13 @@ body {
 #banner-overlay {
     background: rgba(255, 255, 255, 0.95);
 }
+
+/* pie chart */
+.recharts-surface{
+    padding-right: 5px;
+}
+.recharts-default-legend{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
